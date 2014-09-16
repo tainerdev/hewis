@@ -1,7 +1,7 @@
 .navbar {
-    background-color: rgb(1, 92, 127);
-    opacity: 0.7;
+    background-color: rgba(1, 92, 127, 0.7);
     z-index: 0;
+    margin: 0;
 }
 
 .site-header{
@@ -10,10 +10,32 @@
     z-index: 1;
 }
 
+.entry-title{
+    display: none;
+}
+
+footer.entry-meta{
+    margin: 0;
+    display: none;
+}
+
 .main-navigation{
     min-height: 0;
 }
 
+.entry-header, .entry-content, .entry-summary, .entry-meta{
+    max-width: none;
+    margin: 0;
+}
+
 .mega-menu-wrap {
     background: transparent !important;
+}
+
+.hentry{
+    padding: 0;
+}
+
+.site-header .search-field {
+    margin: 0;
 }
