@@ -25,9 +25,13 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<!--[if lt IE 9]>
-	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>custom.js
 	<![endif]-->
 	<?php wp_head(); ?>
+    <script src="<?php echo get_template_directory_uri(); ?>/bootstrap/js/bootstrap.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/custom.js"></script>
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/bootstrap/css/bootstrap-theme.min.css">
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/css/custom.css">
 </head>
 
